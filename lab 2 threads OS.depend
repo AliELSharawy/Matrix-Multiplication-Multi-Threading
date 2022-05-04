@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1648656119 source:/home/alielsharawy/Desktop/OS/OS labs/lab 2 threads OS/lab 2 threads OS/lab 2 threads Os/lab 2 threads OS/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/time.h>
+	<pthread.h>
+
+1648656119 source:/home/alielsharawy/Desktop/OS/OS labs/lab 2 threads OS/lab 2 threads OS/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/time.h>
+	<pthread.h>
+
+1648657074 source:/home/alielsharawy/Desktop/OS/lab 2 threads OS/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/time.h>
+	<pthread.h>
+
