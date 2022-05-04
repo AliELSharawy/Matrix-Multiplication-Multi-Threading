@@ -1,5 +1,6 @@
 # Matrix Multiplication (Multi-Threading)
 
+[lab 2 report OS.pdf](https://github.com/AliELSharawy/Matrix-Multiplication-Multi-Threading/files/8627648/lab.2.report.OS.pdf)
 
 ## Overview
 
