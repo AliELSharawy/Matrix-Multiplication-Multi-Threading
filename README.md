@@ -96,7 +96,6 @@ Your programs should do the following:
 * **Output to the number of threads created and the time taken on the standout (the console) for all the three methods (three different outputs).**
 * Assume I will not test with matrix size larger than 20 x 20.
 * Your program need to handle any errors and terminate gracefully.
-* You should work on this lab individually.
 
 ## Synchronization
 
