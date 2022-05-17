@@ -1,7 +1,5 @@
 # Matrix Multiplication (Multi-Threading)
 
-[lab 2 report OS.pdf](https://github.com/AliELSharawy/Matrix-Multiplication-Multi-Threading/files/8627648/lab.2.report.OS.pdf)
-
 ## Overview
 
 The input to the program is two matrixes A(x*y) and B(y*z) that are read from corresponding text files. The output is a matrix C(x*z) that is written to an output text file.
