@@ -143,5 +143,5 @@ Your code should handle memory management and sending arguments to threads funct
 - Second method:
     Slower than first method as it has overhead to create row1 threads
 - Third method:
-    Slowest method as it has overhead to create row1*col2 threads
+    Slowest method as it has overhead to create row1*col2 threads\
 As execution time of matrix multiplication is not very large so overhead to create threads is equivalent to matrix multiplication
