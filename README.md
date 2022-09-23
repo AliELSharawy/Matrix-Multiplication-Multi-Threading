@@ -112,3 +112,10 @@ Your code should handle memory management and sending arguments to threads funct
   * Leave matrices A, B, and C in the global segment, then create a struct that has the row number, and the column number, send this struct to the thread function by reference (allocate the struct in the dynamic heap).
   * Create A, B, and C in the dynamic heap, then create a struct that has A*, B*, C* (pointers to the arrays), the row number, and the column number , then send the struct to the thread function by reference (allocate the struct in the dynamic heap).
 * In all cases, you have to free any allocated memory in the dynamic heap at the end of the worker (child) thread, no memory leak should be allowed.
+
+## Code Organization
+- We get size of 2 matrices and check col1 == row2
+- Execute 3 functions sequentially and print their threads and time in console.
+    - In first function for matrix multiplication we use 1 thread and calculate in resMatrix 1 then print it in file.
+    - In second function for raw multiplication we make row1 threads array and each thread calculate row in resMatrix 2 then we join these threads and print it in file.
+    - In third function for element multiplication we make row1 * col2 threads matrix and each thread calculate an element in resMatrix 3 then we join these threads and print in file.
