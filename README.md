@@ -138,10 +138,10 @@ Your code should handle memory management and sending arguments to threads funct
 7) No arguments will have default name a , b , c for files respectively else the first 3 arguments only will be taken.
 
 ## Comparison between the three methods
-    - First method:
-        Fastest method as it has no overhead to create threads
-    - Second method:
-        Slower than first method as it has overhead to create row1 threads
-    - Third method:
-       Slowest method as it has overhead to create row1*col2 threads\
 As execution time of matrix multiplication is not very large so overhead to create threads is equivalent to matrix multiplication
+- First method:
+    Fastest method as it has no overhead to create threads
+- Second method:
+    Slower than first method as it has overhead to create row1 threads
+- Third method:
+    Slowest method as it has overhead to create row1*col2 threads\
