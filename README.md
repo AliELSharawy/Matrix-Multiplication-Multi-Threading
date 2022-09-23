@@ -149,10 +149,12 @@ As execution time of matrix multiplication is not very large so overhead to crea
 ## Sample Runs
 https://www.youtube.com/watch?v=hB3rYK1sop4&t=2s
 
-![{3C549FA4-C5FC-4F28-9D7E-92BA9AF19C90} png](https://user-images.githubusercontent.com/95590176/192001807-73e8f130-a357-4e43-b569-aaf048ebe0ff.jpg)
-
 ![{08E2710C-E233-4468-A23D-16D1FF6FABD6} png](https://user-images.githubusercontent.com/95590176/192001831-7d12623d-0305-483a-aec3-74cc48916512.jpg)
 
+![{3C549FA4-C5FC-4F28-9D7E-92BA9AF19C90} png](https://user-images.githubusercontent.com/95590176/192001807-73e8f130-a357-4e43-b569-aaf048ebe0ff.jpg)
+
 ![{9CB1D91A-1EA2-4341-A4B8-EC03B0BA9B01} png](https://user-images.githubusercontent.com/95590176/192001873-52fe89b2-8ed6-4ae6-b925-a1487381a9ba.jpg)
+
+![{733CC0D2-3EB9-4690-A46C-7ADF54FF93C5} png](https://user-images.githubusercontent.com/95590176/192002310-79fef8b9-1cba-4279-805b-64b9fa9e1ea2.jpg)
 
 ![{D79EA6C1-91F9-40C1-AE5C-C41336BC14A7} png](https://user-images.githubusercontent.com/95590176/192001994-01922c47-ac34-4433-9c9e-ae8abe282dd7.jpg)
