@@ -119,3 +119,29 @@ Your code should handle memory management and sending arguments to threads funct
     - In first function for matrix multiplication we use 1 thread and calculate in resMatrix 1 then print it in file.
     - In second function for raw multiplication we make row1 threads array and each thread calculate row in resMatrix 2 then we join these threads and print it in file.
     - In third function for element multiplication we make row1 * col2 threads matrix and each thread calculate an element in resMatrix 3 then we join these threads and print in file.
+
+## Main Functions
+- In main functions we read input from user and check valid input and execute 3 functions and calculate executed time for each function.
+- In matrix thread function we calculate resMatrix 1 and print it to file.
+- In row thread function we create thread for each row and put arguments (row index, col1, col2) in pointer to argument struct and allocate it in memory and each thread execute raw thread fill function to calculate its row in resMatrix 2 then we join all these threads and print to file.
+- In row thread fill function we calculate row[row index] of resMatrix2 then we deallocate/free pointer to struct.
+- In element thread function we create threads for each element and put arguments (row index, col index, col1, col2) in pointer to argument struct and allocate it in memory and each thread execute element thread fill function to calculate its element in resMatrix 3 then we join all these threads and print to file.
+- In element thread fill function we calculate element [row index] [col index] of resMatrix3 then we deallocate/free pointer to struct.
+
+## How to compile and run code
+1) Make 2 text files for each matrix 1 and matrix 2
+2) Open terminal at lab folder
+3) make command to compile project
+4) ./matMultp file1_name file2_name outFile_name
+5) 3 text files with name entered will be created each has function name used
+6) The input text files must be in lab folder and exist with same name entered
+7) No arguments will have default name a , b , c for files respectively else the first 3 arguments only will be taken.
+
+## Comparison between the three methods
+- First method:
+    Fastest method as it has no overhead to create threads
+- Second method:
+    Slower than first method as it has overhead to create row1 threads
+- Third method:
+    Slowest method as it has overhead to create row1*col2 threads
+As execution time of matrix multiplication is not very large so overhead to create threads is equivalent to matrix multiplication
